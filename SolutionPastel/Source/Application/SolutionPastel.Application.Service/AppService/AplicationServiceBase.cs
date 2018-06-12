@@ -2,11 +2,8 @@
 using SolutionPastel.Application.Service.Interface.AppService;
 using SolutionPastel.Domain.Interface.Services;
 using SolutionPastelDomain.core.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using System;
 
 namespace SolutionPastel.Application.Service.AppService
 {
@@ -18,7 +15,7 @@ namespace SolutionPastel.Application.Service.AppService
         private IClienteDomainService domainServiceBase;
         private IDomainServiceBase<TEntity> _domainServiceBase;
 
-        
+
         protected AplicationServiceBase(IDomainServiceBase<TEntity> domainServiceBase)
         {
             _domainServiceBase = domainServiceBase;
@@ -39,17 +36,9 @@ namespace SolutionPastel.Application.Service.AppService
             await _domainServiceBase.DeleteAsync(entity);
         }
 
-        //public Task DeleteAsync(TViewModel entity)
-        //{
-        //    throw new NotImplementedException();
-        //}
 
-        //public Task<TViewModel> GetByidAsync(int id)
-        //{
-        //    throw new NotImplementedException();
-        //}
         /// <summary>
-        /// PEGA POKEMON POR ID E RETORNA POKEMONVIEWMODEL
+        /// 
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -60,10 +49,21 @@ namespace SolutionPastel.Application.Service.AppService
         }
 
         //TODO
-        public async Task UpdateAsync(TViewModel entityViewModel)
+        //public async Task UpdateAsync(TViewModel entityViewModel)
+        //{
+        //    var entity = Mapper.Map<TEntity>(entityViewModel);
+        //    await _domainServiceBase.UpdateAsync(entity);
+        //}
+
+        public virtual async Task UpdateAsync( TViewModel entityViewModel , int id)
         {
             var entity = Mapper.Map<TEntity>(entityViewModel);
+
+            entity.Id = id;
+
             await _domainServiceBase.UpdateAsync(entity);
+
+
         }
     }
 }

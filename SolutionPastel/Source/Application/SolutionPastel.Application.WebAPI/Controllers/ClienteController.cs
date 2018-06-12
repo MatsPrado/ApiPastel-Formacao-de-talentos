@@ -1,10 +1,5 @@
 ﻿using SolutionPastel.Application.Service.Interface.AppService;
 using SolutionPastel.Application.Service.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 
@@ -60,9 +55,10 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         /// 
         /// </summary>
         /// <param name="id"></param>
+        /// <param name="entity">todo: describe entity parameter on UpdateAsync</param>
         /// <returns></returns>
-        [HttpPut]
-        public async Task<IHttpActionResult> UpdateAsync(int id,[FromBody]ClienteViewModel entity)
+        [HttpPut]        
+        public async Task<IHttpActionResult> UpdateAsync([FromBody]ClienteViewModel entity, [FromUri]int id)
         {
             var retClient = await _IClienteAppService.GetByIdAsync(id);
             if (retClient == null)
@@ -71,7 +67,7 @@ namespace SolutionPastel.Application.WebAPI.Controllers
             }
             else
             {
-                await _IClienteAppService.UpdateAsync
+                await _IClienteAppService.UpdateAsync(entity,id);
                 return Ok(entity);
             }
            

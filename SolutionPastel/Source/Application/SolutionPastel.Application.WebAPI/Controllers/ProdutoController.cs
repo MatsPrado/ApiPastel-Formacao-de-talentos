@@ -14,7 +14,7 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="IProdutoAppService"></param>
+        /// <param name="produtoAppService"></param>
         public ProdutoController(IProdutoAppService produtoAppService)
         {
             _IProdutoAppService = produtoAppService;

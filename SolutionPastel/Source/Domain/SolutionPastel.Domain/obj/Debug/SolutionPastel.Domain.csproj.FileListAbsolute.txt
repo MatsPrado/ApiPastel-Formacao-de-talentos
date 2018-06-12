@@ -5,3 +5,6 @@ C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\obj\Debug\SolutionPastel.Domain.csprojResolveAssemblyReference.cache
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\obj\Debug\SolutionPastel.Domain.dll
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\obj\Debug\SolutionPastel.Domain.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Domain\SolutionPastel.Domain\obj\Debug\SolutionPastel.Domain.csprojResolveAssemblyReference.cache
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Domain\SolutionPastel.Domain\obj\Debug\SolutionPastel.Domain.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Domain\SolutionPastel.Domain\obj\Debug\SolutionPastel.Domain.pdb

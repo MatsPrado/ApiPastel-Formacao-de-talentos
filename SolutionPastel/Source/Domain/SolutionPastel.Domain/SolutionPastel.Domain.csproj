@@ -55,6 +55,7 @@
     <Compile Include="Interface\Repositorios\IProdutoRepositorio.cs" />
     <Compile Include="Interface\Repositorios\IRepositorioBase.cs" />
     <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\ClienteId.cs" />
     <Compile Include="Models\Pedido.cs" />
     <Compile Include="Models\Pedido_item.cs" />
     <Compile Include="Models\Produto.cs" />

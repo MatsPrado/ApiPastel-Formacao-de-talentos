@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SolutionPastelDomain.core.Models
+namespace SolutionPastel.Domain.Models
 {
-    public abstract class Entity 
+    class ClienteId
     {
-        public int Id { get;  set; }
     }
 }

@@ -9,3 +9,14 @@ C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Application\SolutionPa
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Application\SolutionPastel.Application.Service\obj\Debug\SolutionPastel.Application.Service.csprojResolveAssemblyReference.cache
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Application\SolutionPastel.Application.Service\obj\Debug\SolutionPastel.Application.Service.dll
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Application\SolutionPastel.Application.Service\obj\Debug\SolutionPastel.Application.Service.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\bin\Debug\SolutionPastel.Application.Service.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\bin\Debug\SolutionPastel.Application.Service.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\bin\Debug\AutoMapper.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\bin\Debug\SolutionPastel.Domain.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\bin\Debug\SolutionPastelDomain.core.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\bin\Debug\SolutionPastel.Domain.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\bin\Debug\SolutionPastelDomain.core.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\bin\Debug\AutoMapper.xml
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\obj\Debug\SolutionPastel.Application.Service.csprojResolveAssemblyReference.cache
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\obj\Debug\SolutionPastel.Application.Service.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.Service\obj\Debug\SolutionPastel.Application.Service.pdb

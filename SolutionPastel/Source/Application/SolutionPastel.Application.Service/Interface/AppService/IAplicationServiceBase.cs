@@ -10,13 +10,13 @@ namespace SolutionPastel.Application.Service.Interface.AppService
            where TViewModel : class
     {
         /// <summary>
-        /// PEGA POKEMON
+        /// 
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
         Task<TViewModel> GetByIdAsync(int id);
         Task<TViewModel> AddAsync(TViewModel entity);
-        Task UpdateAsync(TViewModel entity);
+        Task UpdateAsync(TViewModel entity,int id);
         Task DeleteAsync(/*int id,*/ TViewModel entity);
      }
 }

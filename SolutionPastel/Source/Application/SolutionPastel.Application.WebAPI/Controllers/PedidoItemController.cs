@@ -55,12 +55,13 @@ namespace SolutionPastel.Application.WebAPI.Controllers
             return Created(Request.RequestUri, entity);
         }
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <param name="entity"></param>
+        /// <param name="id">todo: describe id parameter on UpdateAsync</param>
         /// <returns></returns>
         [HttpPut]
-        public async Task<IHttpActionResult> UpdateAsync([FromBody]PedidoItemViewModel entity)
+        public async Task<IHttpActionResult> UpdateAsync([FromBody]PedidoItemViewModel entity, int id)
         {
             await _IPedidoItemAppService.UpdateAsync(entity);
             return Ok(entity);

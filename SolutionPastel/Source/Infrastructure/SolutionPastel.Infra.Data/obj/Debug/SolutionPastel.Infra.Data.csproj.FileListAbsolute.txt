@@ -11,3 +11,16 @@ C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Infrastructure\Solutio
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\obj\Debug\SolutionPastel.Infra.Data.csprojResolveAssemblyReference.cache
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\obj\Debug\SolutionPastel.Infra.Data.dll
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\obj\Debug\SolutionPastel.Infra.Data.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\SolutionPastel.Infra.Data.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\SolutionPastel.Infra.Data.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\Dapper.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\DapperExtensions.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\SolutionPastel.Domain.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\SolutionPastelDomain.core.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\SolutionPastel.Domain.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\SolutionPastelDomain.core.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\Dapper.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\bin\Debug\DapperExtensions.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\obj\Debug\SolutionPastel.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\obj\Debug\SolutionPastel.Infra.Data.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Infrastructure\SolutionPastel.Infra.Data\obj\Debug\SolutionPastel.Infra.Data.pdb

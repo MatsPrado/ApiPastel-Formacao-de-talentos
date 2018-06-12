@@ -57,7 +57,7 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         [HttpPut]
         public async Task<IHttpActionResult> UpdateAsync([FromBody]PedidoViewModel entity)
         {
-            await _IPedidoAppService.UpdateAsync(entity);
+            await _IPedidoAppService.UpdateAsync(entity,id);
             return Ok(entity);
         }
         /// <summary>
