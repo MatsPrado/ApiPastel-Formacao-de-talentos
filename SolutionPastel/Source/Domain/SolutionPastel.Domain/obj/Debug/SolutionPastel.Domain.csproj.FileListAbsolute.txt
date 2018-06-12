@@ -1,0 +1,7 @@
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\bin\Debug\SolutionPastel.Domain.dll
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\bin\Debug\SolutionPastel.Domain.pdb
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\bin\Debug\SolutionPastelDomain.core.dll
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\bin\Debug\SolutionPastelDomain.core.pdb
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\obj\Debug\SolutionPastel.Domain.csprojResolveAssemblyReference.cache
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\obj\Debug\SolutionPastel.Domain.dll
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastel.Domain\obj\Debug\SolutionPastel.Domain.pdb

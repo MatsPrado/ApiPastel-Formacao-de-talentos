@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47E60A9B-9D79-4AD3-9131-54EBC721A1E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolutionPastel.Domain</RootNamespace>
+    <AssemblyName>SolutionPastel.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface\Services\IClienteDomainService.cs" />
+    <Compile Include="Interface\Repositorios\IClienteRepositorio.cs" />
+    <Compile Include="Interface\Services\IDomainServiceBase.cs" />
+    <Compile Include="Interface\Services\IPedidoDomainService.cs" />
+    <Compile Include="Interface\Repositorios\IPedidoItemRepositorio.cs" />
+    <Compile Include="Interface\Services\IPedidoItemService.cs" />
+    <Compile Include="Interface\Repositorios\IPedidoRepositorio.cs" />
+    <Compile Include="Interface\Services\IProdutoDomainService.cs" />
+    <Compile Include="Interface\Repositorios\IProdutoRepositorio.cs" />
+    <Compile Include="Interface\Repositorios\IRepositorioBase.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Pedido.cs" />
+    <Compile Include="Models\Pedido_item.cs" />
+    <Compile Include="Models\Produto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ClienteDomainService.cs" />
+    <Compile Include="Service\DomainServiceBase.cs" />
+    <Compile Include="Service\PedidoDomainService.cs" />
+    <Compile Include="Service\PedidoItemDomainService.cs" />
+    <Compile Include="Service\ProdutoDomainService.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SolutionPastelDomain.core\SolutionPastelDomain.core.csproj">
+      <Project>{3ECB0189-027F-4D23-BE39-D6D1AF5800D7}</Project>
+      <Name>SolutionPastelDomain.core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

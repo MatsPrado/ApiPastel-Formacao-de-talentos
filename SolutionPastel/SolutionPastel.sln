@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{E98436EE-E5A2-40E6-A1E7-75ED702BF9DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B9FB96CA-95EB-4C82-ACCC-0C27AF1E570D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1209DE15-479E-43C7-98A4-7770EB0A28F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{AEAE466D-ED9F-402F-8EAB-1CB59EE5AD0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionPastel.Application.WebAPI", "Source\Application\SolutionPastel.Application.WebAPI\SolutionPastel.Application.WebAPI.csproj", "{026EA542-C0F0-4225-8166-A18E8E7000AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionPastel.Application.Service", "Source\Application\SolutionPastel.Application.Service\SolutionPastel.Application.Service.csproj", "{9F914A46-280E-43F1-9E97-15446BA376C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionPastel.Domain", "Source\Domain\SolutionPastel.Domain\SolutionPastel.Domain.csproj", "{47E60A9B-9D79-4AD3-9131-54EBC721A1E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionPastelDomain.core", "Source\Domain\SolutionPastelDomain.core\SolutionPastelDomain.core.csproj", "{3ECB0189-027F-4D23-BE39-D6D1AF5800D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionPastel.Infra.Data", "Source\Infrastructure\SolutionPastel.Infra.Data\SolutionPastel.Infra.Data.csproj", "{2C45692D-060D-4CDA-B39D-3C032A51D186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionPastel.Infra.IoC", "Source\Infrastructure\SolutionPastel.Infra.IoC\SolutionPastel.Infra.IoC.csproj", "{C00B29F3-E48A-4E60-940E-2715E350BBF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{026EA542-C0F0-4225-8166-A18E8E7000AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026EA542-C0F0-4225-8166-A18E8E7000AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026EA542-C0F0-4225-8166-A18E8E7000AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026EA542-C0F0-4225-8166-A18E8E7000AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F914A46-280E-43F1-9E97-15446BA376C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F914A46-280E-43F1-9E97-15446BA376C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F914A46-280E-43F1-9E97-15446BA376C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F914A46-280E-43F1-9E97-15446BA376C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E60A9B-9D79-4AD3-9131-54EBC721A1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E60A9B-9D79-4AD3-9131-54EBC721A1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E60A9B-9D79-4AD3-9131-54EBC721A1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E60A9B-9D79-4AD3-9131-54EBC721A1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ECB0189-027F-4D23-BE39-D6D1AF5800D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECB0189-027F-4D23-BE39-D6D1AF5800D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECB0189-027F-4D23-BE39-D6D1AF5800D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECB0189-027F-4D23-BE39-D6D1AF5800D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C45692D-060D-4CDA-B39D-3C032A51D186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C45692D-060D-4CDA-B39D-3C032A51D186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C45692D-060D-4CDA-B39D-3C032A51D186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C45692D-060D-4CDA-B39D-3C032A51D186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00B29F3-E48A-4E60-940E-2715E350BBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00B29F3-E48A-4E60-940E-2715E350BBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00B29F3-E48A-4E60-940E-2715E350BBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00B29F3-E48A-4E60-940E-2715E350BBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9FB96CA-95EB-4C82-ACCC-0C27AF1E570D} = {E98436EE-E5A2-40E6-A1E7-75ED702BF9DE}
+		{1209DE15-479E-43C7-98A4-7770EB0A28F9} = {E98436EE-E5A2-40E6-A1E7-75ED702BF9DE}
+		{AEAE466D-ED9F-402F-8EAB-1CB59EE5AD0F} = {E98436EE-E5A2-40E6-A1E7-75ED702BF9DE}
+		{026EA542-C0F0-4225-8166-A18E8E7000AF} = {AEAE466D-ED9F-402F-8EAB-1CB59EE5AD0F}
+		{9F914A46-280E-43F1-9E97-15446BA376C6} = {AEAE466D-ED9F-402F-8EAB-1CB59EE5AD0F}
+		{47E60A9B-9D79-4AD3-9131-54EBC721A1E2} = {1209DE15-479E-43C7-98A4-7770EB0A28F9}
+		{3ECB0189-027F-4D23-BE39-D6D1AF5800D7} = {1209DE15-479E-43C7-98A4-7770EB0A28F9}
+		{2C45692D-060D-4CDA-B39D-3C032A51D186} = {B9FB96CA-95EB-4C82-ACCC-0C27AF1E570D}
+		{C00B29F3-E48A-4E60-940E-2715E350BBF0} = {B9FB96CA-95EB-4C82-ACCC-0C27AF1E570D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://darkprado.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Source\\Application\\SolutionPastel.Application.Service\\SolutionPastel.Application.Service.csproj
+		SccProjectTopLevelParentUniqueName1 = SolutionPastel.sln
+		SccProjectName1 = Source/Application/SolutionPastel.Application.Service
+		SccLocalPath1 = Source\\Application\\SolutionPastel.Application.Service
+		SccProjectUniqueName2 = Source\\Application\\SolutionPastel.Application.WebAPI\\SolutionPastel.Application.WebAPI.csproj
+		SccProjectTopLevelParentUniqueName2 = SolutionPastel.sln
+		SccProjectName2 = Source/Application/SolutionPastel.Application.WebAPI
+		SccLocalPath2 = Source\\Application\\SolutionPastel.Application.WebAPI
+		SccProjectUniqueName3 = Source\\Domain\\SolutionPastel.Domain\\SolutionPastel.Domain.csproj
+		SccProjectTopLevelParentUniqueName3 = SolutionPastel.sln
+		SccProjectName3 = Source/Domain/SolutionPastel.Domain
+		SccLocalPath3 = Source\\Domain\\SolutionPastel.Domain
+		SccProjectUniqueName4 = Source\\Domain\\SolutionPastelDomain.core\\SolutionPastelDomain.core.csproj
+		SccProjectTopLevelParentUniqueName4 = SolutionPastel.sln
+		SccProjectName4 = Source/Domain/SolutionPastelDomain.core
+		SccLocalPath4 = Source\\Domain\\SolutionPastelDomain.core
+		SccProjectUniqueName5 = Source\\Infrastructure\\SolutionPastel.Infra.Data\\SolutionPastel.Infra.Data.csproj
+		SccProjectTopLevelParentUniqueName5 = SolutionPastel.sln
+		SccProjectName5 = Source/Infrastructure/SolutionPastel.Infra.Data
+		SccLocalPath5 = Source\\Infrastructure\\SolutionPastel.Infra.Data
+		SccProjectUniqueName6 = Source\\Infrastructure\\SolutionPastel.Infra.IoC\\SolutionPastel.Infra.IoC.csproj
+		SccProjectTopLevelParentUniqueName6 = SolutionPastel.sln
+		SccProjectName6 = Source/Infrastructure/SolutionPastel.Infra.IoC
+		SccLocalPath6 = Source\\Infrastructure\\SolutionPastel.Infra.IoC
+	EndGlobalSection
+EndGlobal

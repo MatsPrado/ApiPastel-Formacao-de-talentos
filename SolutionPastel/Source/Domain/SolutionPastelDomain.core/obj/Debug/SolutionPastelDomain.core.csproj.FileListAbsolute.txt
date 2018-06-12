@@ -1,0 +1,4 @@
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastelDomain.core\bin\Debug\SolutionPastelDomain.core.dll
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastelDomain.core\bin\Debug\SolutionPastelDomain.core.pdb
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastelDomain.core\obj\Debug\SolutionPastelDomain.core.dll
+C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Domain\SolutionPastelDomain.core\obj\Debug\SolutionPastelDomain.core.pdb
