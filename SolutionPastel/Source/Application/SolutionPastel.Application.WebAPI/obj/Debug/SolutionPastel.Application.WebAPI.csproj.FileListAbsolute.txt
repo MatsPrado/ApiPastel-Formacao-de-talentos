@@ -81,9 +81,6 @@ C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Application\SolutionPa
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\obj\Debug\SolutionPastel.Application.WebAPI.csprojResolveAssemblyReference.cache
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\obj\Debug\SolutionPastel.Application.WebAPI.dll
 C:\Users\mplima\Desktop\Api\Api\API\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\obj\Debug\SolutionPastel.Application.WebAPI.pdb
-C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\obj\Debug\SolutionPastel.Application.WebAPI.csprojResolveAssemblyReference.cache
-C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\obj\Debug\SolutionPastel.Application.WebAPI.dll
-C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\obj\Debug\SolutionPastel.Application.WebAPI.pdb
 C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\bin\ApplicationInsights.config
 C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\bin\roslyn\csc.exe
 C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -163,3 +160,6 @@ C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPaste
 C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\bin\SolutionPastel.Infra.Data.pdb
 C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\bin\AutoMapper.xml
 C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\bin\SolutionPastelDomain.core.pdb
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\obj\Debug\SolutionPastel.Application.WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\obj\Debug\SolutionPastel.Application.WebAPI.dll
+C:\Users\mplima\Desktop\Api\Api\API\ApiPastel-Formacao-de-talentos\SolutionPastel\Source\Application\SolutionPastel.Application.WebAPI\obj\Debug\SolutionPastel.Application.WebAPI.pdb

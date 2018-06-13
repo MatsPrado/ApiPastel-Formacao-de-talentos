@@ -25,7 +25,7 @@ namespace SolutionPastel.Application.Service.AppService
             var entity = Mapper.Map<TEntity>(ViewModel);
             await _domainServiceBase.AddAsync(entity);
             return ViewModel;
-
+             
         }
 
         //TODO

@@ -12,15 +12,16 @@ namespace SolutionPastel.Domain.Models
     {
         public int Id_CLiente { get; set; }
         public int Quantidade { get; private set; }
-        public DateTime Date { get; private set; }
 
-        public Pedido(int id_cliente, int quantidade, DateTime date)
+        public DateTime Data { get; private set; }
+
+        public Pedido(int id_cliente, int quantidade)
         {
             Quantidade = quantidade;
             Id_CLiente = id_cliente;
-            Date = date;
+            Data = DateTime.Now;
         }
-        private Pedido()
+        public Pedido()
         {
 
         }

@@ -10,6 +10,6 @@ namespace SolutionPastel.Application.Service.ViewModel
     {
         public int Id_CLiente { get; set; }
         public int Quantidade { get;  set; }
-        public string Date { get;  set; }
+    
     }
 }

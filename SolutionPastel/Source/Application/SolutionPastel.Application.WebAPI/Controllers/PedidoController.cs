@@ -14,10 +14,10 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="IPokemonAppService"></param>
-        public PedidoController(IPedidoAppService IPokemonAppService)
+        /// <param name="IPedidoAppService"></param>
+        public PedidoController(IPedidoAppService IPedidoAppService)
         {
-            _IPedidoAppService = IPokemonAppService;
+            _IPedidoAppService = IPedidoAppService;
         }
 
         /// <summary>
