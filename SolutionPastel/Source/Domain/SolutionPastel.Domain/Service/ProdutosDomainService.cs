@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace SolutionPastel.Domain.Service
 {
-    public class ProdutoDomainService : DomainServiceBase<Produto>, IProdutoDomainService
+    public class ProdutosDomainService : DomainServiceBase<Produtos>, IProdutosDomainService
     {
-        public ProdutoDomainService(IProdutoRepositorio repositoryBase) : base(repositoryBase) {
+        public ProdutosDomainService(IProdutosRepositorio RepositoryBase) : base(RepositoryBase) {
 
         }
     }

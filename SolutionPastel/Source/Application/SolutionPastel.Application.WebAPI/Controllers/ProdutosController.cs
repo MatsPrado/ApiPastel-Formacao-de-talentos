@@ -6,18 +6,19 @@ using System.Web.Http;
 
 namespace SolutionPastel.Application.WebAPI.Controllers
 {
-    public class ProdutoController : ApiController
+    [RoutePrefix("api/Produtos")]
+    public class ProdutosController : ApiController
     {
 
-        private IProdutoAppService _IProdutoAppService;
+        private IProdutosAppService _IProdutosAppService;
 
         /// <summary>
         /// 
         /// </summary>
         /// <param name="produtoAppService"></param>
-        public ProdutoController(IProdutoAppService produtoAppService)
+        public ProdutosController(IProdutosAppService produtoAppService)
         {
-            _IProdutoAppService = produtoAppService;
+            _IProdutosAppService = produtoAppService;
         }
 
         /// <summary>
@@ -29,7 +30,7 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         [Route("id")]
         public async Task<IHttpActionResult> GetAsync(int id)
         {
-            var retProdut = await _IProdutoAppService.GetByIdAsync(id);
+            var retProdut = await _IProdutosAppService.GetByIdAsync(id);
             if (retProdut == null)
             {
                 return NotFound();
@@ -45,21 +46,30 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         /// <returns></returns>
         [HttpPost]
 
-        public async Task<IHttpActionResult> AddAsync([FromBody]ProdutoViewModel entity)
+        public async Task<IHttpActionResult> AddAsync([FromBody]ProdutosViewModel entity)
         {
-            await _IProdutoAppService.AddAsync(entity);
+            await _IProdutosAppService.AddAsync(entity);
             return Created(Request.RequestUri, entity);
         }
         /// <summary>
         /// 
         /// </summary>
         /// <param name="entity"></param>
+        /// <param name="id">todo: describe id parameter on UpdateAsync</param>
         /// <returns></returns>
         [HttpPut]
-        public async Task<IHttpActionResult> UpdateAsync([FromBody]ProdutoViewModel entity)
+        public async Task<IHttpActionResult> UpdateAsync([FromBody]ProdutosViewModel entity, [FromUri]int id)
         {
-            await _IProdutoAppService.UpdateAsync(entity);
-            return Ok(entity);
+            var retClient = await _IProdutosAppService.GetByIdAsync(id);
+            if (retClient == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                await _IProdutosAppService.UpdateAsync(entity, id);
+                return Ok(entity);
+            }
         }
         /// <summary>
         /// 
@@ -71,14 +81,14 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         public async Task<IHttpActionResult> DeleteAsync(int id)
         {
 
-            var retProdut = await _IProdutoAppService.GetByIdAsync(id);
+            var retProdut = await _IProdutosAppService.GetByIdAsync(id);
             if (retProdut == null)
             {
                 return NotFound();
             }
             else
             {
-                await _IProdutoAppService.DeleteAsync(retProdut);
+                await _IProdutosAppService.DeleteAsync(retProdut);
                 return Ok();
             }
         }

@@ -53,18 +53,18 @@
     <Compile Include="AppService\ClienteAppService.cs" />
     <Compile Include="AppService\PedidoAppService.cs" />
     <Compile Include="AppService\PedidoItemAppService.cs" />
-    <Compile Include="AppService\ProdutoAppService.cs" />
+    <Compile Include="AppService\ProdutosAppService.cs" />
     <Compile Include="Interface\AppService\IAplicationServiceBase.cs" />
     <Compile Include="Interface\AppService\IClienteAppService.cs" />
     <Compile Include="Interface\AppService\IPedidoAppService.cs" />
     <Compile Include="Interface\AppService\IPedidoItemAppService.cs" />
-    <Compile Include="Interface\AppService\IProdutoAppService..cs" />
+    <Compile Include="Interface\AppService\IProdutosAppService..cs" />
     <Compile Include="Mapping\RegisterMappings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\ClienteViewModel.cs" />
     <Compile Include="ViewModel\PedidoItemViewModel.cs" />
     <Compile Include="ViewModel\PedidoViewModel.cs" />
-    <Compile Include="ViewModel\ProdutoViewModel.cs" />
+    <Compile Include="ViewModel\ProdutosViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

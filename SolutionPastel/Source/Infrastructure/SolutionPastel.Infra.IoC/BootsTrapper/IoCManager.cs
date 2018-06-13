@@ -20,9 +20,9 @@ namespace SolutionPastel.Infra.IoC.BootsTrapper
                     DefaultScopedLifestyle = new AsyncScopedLifestyle()
                 }
             };
-            container.Register<IProdutoRepositorio, ProdutoRepository>();
-            container.Register<IProdutoDomainService, ProdutoDomainService>();
-            container.Register<IProdutoAppService, ProdutoAppService>();
+            container.Register<IProdutosRepositorio, ProdutosRepository>();
+            container.Register<IProdutosDomainService, ProdutosDomainService>();
+            container.Register<IProdutosAppService, ProdutosAppService>();
 
             container.Register<IClienteRepositorio, ClienteRepository>();
             container.Register<IClienteDomainService, ClienteDomainService>();

@@ -10,9 +10,9 @@ using SolutionPastel.Domain.Interface.Services;
 
 namespace SolutionPastel.Application.Service.AppService
 {
-    public sealed class ProdutoAppService : AplicationServiceBase<Produto, ProdutoViewModel>, IProdutoAppService
+    public sealed class ProdutosAppService : AplicationServiceBase<Produtos, ProdutosViewModel>, IProdutosAppService
     {
-        public ProdutoAppService(IProdutoDomainService domainServiceBase) : base(domainServiceBase)
+        public ProdutosAppService(IProdutosDomainService domainServiceBase) : base(domainServiceBase)
         {
         }
     }

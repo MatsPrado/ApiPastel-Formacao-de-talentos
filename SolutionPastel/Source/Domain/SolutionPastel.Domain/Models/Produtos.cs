@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace SolutionPastel.Domain.Models
 {
-    public class Produto : Entity
+    public class Produtos : Entity
     {
         public string Nome { get; private set; }
 
         public int Valor { get; private set; }
   
 
-        public Produto(string nome, int valor)
+        public Produtos(string nome, int valor)
         {
             Nome = nome;
             Valor = valor;
         }
-        private Produto() { }
+        private Produtos() { }
     }
 }

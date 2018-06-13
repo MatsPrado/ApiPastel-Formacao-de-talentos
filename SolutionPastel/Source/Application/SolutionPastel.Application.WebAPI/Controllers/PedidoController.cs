@@ -5,6 +5,7 @@ using System.Web.Http;
 
 namespace SolutionPastel.Application.WebAPI.Controllers
 {
+    [RoutePrefix("api/Pedido")]
     public class PedidoController : ApiController
     {
 
@@ -53,12 +54,22 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         /// 
         /// </summary>
         /// <param name="entity"></param>
+        /// <param name="id">todo: describe id parameter on UpdateAsync</param>
         /// <returns></returns>
         [HttpPut]
-        public async Task<IHttpActionResult> UpdateAsync([FromBody]PedidoViewModel entity)
+        public async Task<IHttpActionResult> UpdateAsync([FromBody]PedidoViewModel entity, [FromUri]int id)
         {
-            await _IPedidoAppService.UpdateAsync(entity,id);
-            return Ok(entity);
+            var retClient = await _IPedidoAppService.GetByIdAsync(id);
+            if (retClient == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                await _IPedidoAppService.UpdateAsync(entity, id);
+                return Ok(entity);
+            }
+
         }
         /// <summary>
         /// 

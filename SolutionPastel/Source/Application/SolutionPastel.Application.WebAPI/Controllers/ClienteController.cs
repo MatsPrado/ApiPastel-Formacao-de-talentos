@@ -5,6 +5,7 @@ using System.Web.Http;
 
 namespace SolutionPastel.Application.WebAPI.Controllers
 {
+    [RoutePrefix("api/Cliente")]
     public class ClienteController : ApiController
     {
 
@@ -72,6 +73,7 @@ namespace SolutionPastel.Application.WebAPI.Controllers
             }
            
         }
+
         /// <summary>
         /// 
         /// </summary>

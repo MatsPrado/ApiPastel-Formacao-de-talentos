@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SolutionPastel.Domain.Interface.Repositorios
+namespace SolutionPastel.Domain.Interface.Services
 {
-    public interface IProdutoRepositorio : IRepositorioBase<Produto>
+    public interface  IProdutosDomainService : IDomainServiceBase<Produtos>
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SolutionPastel.Application.Service.ViewModel
 {
-    public class ProdutoViewModel
+    public class ProdutosViewModel
     {
         public string Nome { get;  set; }
         public int Valor { get;  set; }

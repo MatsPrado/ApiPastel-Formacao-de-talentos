@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SolutionPastel.Domain.Interface.Repositorios
 {
-    public interface IPedidoRepositorio : IDomainServiceBase<Pedido>
+    public interface IPedidoRepositorio : IRepositorioBase<Pedido>
     {
     }
 }

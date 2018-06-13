@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SolutionPastel.Infra.Data.Repositories
 {
-    public sealed class ProdutoRepository : RepositoryBase<Produto>, IProdutoRepositorio
+    public sealed class ProdutosRepository : RepositoryBase<Produtos>, IProdutosRepositorio
     {
     }
 }

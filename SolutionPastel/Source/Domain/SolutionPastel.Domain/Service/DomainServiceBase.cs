@@ -11,26 +11,14 @@ namespace SolutionPastel.Domain.Service
 {
         public abstract class DomainServiceBase<TEntity> : IDomainServiceBase<TEntity> where TEntity : Entity
         {
-        private IPedidoRepositorio repositoryBase;
-        private IPedidoItemRepositorio repositoryBase1;
-        private readonly IRepositorioBase<TEntity> _repositoryBase;
-
-        public DomainServiceBase(IPedidoItemRepositorio repositoryBase1)
-        {
-            this.repositoryBase1 = repositoryBase1;
-        }
-
-        public DomainServiceBase(IPedidoRepositorio repositoryBase)
-        {
-            this.repositoryBase = repositoryBase;
-        }
+        private IRepositorioBase<TEntity> _repositoryBase;
 
         protected DomainServiceBase(IRepositorioBase<TEntity> repositoryBase)
-            {
-                _repositoryBase = repositoryBase;
-            }
+        {
+            _repositoryBase = repositoryBase;
+        }
 
-            public async Task AddAsync(TEntity entity)
+        public async Task AddAsync(TEntity entity)
             {
                 await _repositoryBase.AddAsync(entity);
             }

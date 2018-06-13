@@ -1,4 +1,5 @@
-﻿using SolutionPastel.Application.Service.Interface.AppService;
+﻿using SolutionPastel.Application.Service.AppService;
+using SolutionPastel.Application.Service.Interface.AppService;
 using SolutionPastel.Application.Service.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Web.Http;
 
 namespace SolutionPastel.Application.WebAPI.Controllers
 {
+    [RoutePrefix("api/PedidoItem")]
     public class PedidoItemController : ApiController
     {
 
@@ -61,10 +63,18 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         /// <param name="id">todo: describe id parameter on UpdateAsync</param>
         /// <returns></returns>
         [HttpPut]
-        public async Task<IHttpActionResult> UpdateAsync([FromBody]PedidoItemViewModel entity, int id)
+        public async Task<IHttpActionResult> UpdateAsync([FromBody]PedidoItemViewModel entity, [FromUri]int id)
         {
-            await _IPedidoItemAppService.UpdateAsync(entity);
-            return Ok(entity);
+            var retClient = await _IPedidoItemAppService.GetByIdAsync(id);
+            if (retClient == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                await _IPedidoItemAppService.UpdateAsync(entity, id);
+                return Ok(entity);
+            }
         }
         /// <summary>
         /// 

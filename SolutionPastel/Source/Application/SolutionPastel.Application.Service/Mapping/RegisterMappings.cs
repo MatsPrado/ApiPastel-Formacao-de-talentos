@@ -15,8 +15,8 @@ namespace SolutionPastel.Application.Service.Mapping
         {
             Mapper.Initialize(cfg =>
             {
-                cfg.CreateMap<Produto, ProdutoViewModel>();
-                cfg.CreateMap<ProdutoViewModel, Produto>();
+                cfg.CreateMap<Produtos, ProdutosViewModel>();
+                cfg.CreateMap<ProdutosViewModel, Produtos>();
 
                 cfg.CreateMap<Cliente, ClienteViewModel>();
                 cfg.CreateMap<ClienteViewModel, Cliente>();

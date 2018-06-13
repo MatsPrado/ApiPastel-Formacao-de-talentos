@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace SolutionPastel.Application.Service.Interface.AppService
 {
-    public interface IPedidoAppService : IAplicationServiceBase <PedidoViewModel>
+    public interface IPedidoAppService : IAplicationServiceBase<PedidoViewModel>
     {
+      
     }
 }

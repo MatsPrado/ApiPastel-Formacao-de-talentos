@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SolutionPastel.Application.Service.Interface.AppService
 {
-    public interface IProdutoAppService : IAplicationServiceBase<ProdutoViewModel>
+    public interface IProdutosAppService : IAplicationServiceBase<ProdutosViewModel>
     {
     }
 }
