@@ -29,12 +29,19 @@ namespace SolutionPastel.Application.Service.AppService
         }
 
         //TODO
-        public async Task DeleteAsync(TViewModel entityViewModel)
+        public virtual async Task DeleteAsync(TViewModel entityViewModel, int id)
         {
             var entity = Mapper.Map<TEntity>(entityViewModel);
-
+            entity.Id = id;
             await _domainServiceBase.DeleteAsync(entity);
         }
+
+        //public Task<TViewModel> GetAllAsync(TViewModel entity)
+        //{
+        //    var entity = await _domainServiceBase.GetAll();
+        //    return Mapper.Map<TViewModel>(entity);
+        //}
+
 
 
         /// <summary>
@@ -48,12 +55,7 @@ namespace SolutionPastel.Application.Service.AppService
             return Mapper.Map<TViewModel>(entity);
         }
 
-        //TODO
-        //public async Task UpdateAsync(TViewModel entityViewModel)
-        //{
-        //    var entity = Mapper.Map<TEntity>(entityViewModel);
-        //    await _domainServiceBase.UpdateAsync(entity);
-        //}
+       
 
         public virtual async Task UpdateAsync( TViewModel entityViewModel , int id)
         {

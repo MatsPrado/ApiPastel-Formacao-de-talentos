@@ -88,7 +88,7 @@ namespace SolutionPastel.Application.WebAPI.Controllers
             }
             else
             {
-                await _IPedidoAppService.DeleteAsync(retPok);
+                await _IPedidoAppService.DeleteAsync(retPok,id);
                 return Ok();
             }
         }

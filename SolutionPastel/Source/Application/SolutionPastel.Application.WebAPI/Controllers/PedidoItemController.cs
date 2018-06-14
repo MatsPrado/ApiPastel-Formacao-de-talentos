@@ -93,7 +93,7 @@ namespace SolutionPastel.Application.WebAPI.Controllers
             }
             else
             {
-                await _IPedidoItemAppService.DeleteAsync(retPok);
+                await _IPedidoItemAppService.DeleteAsync(retPok,id);
                 return Ok();
             }
         }

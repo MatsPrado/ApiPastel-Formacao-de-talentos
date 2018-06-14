@@ -1,5 +1,6 @@
 ﻿using SolutionPastel.Application.Service.Interface.AppService;
 using SolutionPastel.Application.Service.ViewModel;
+using SolutionPastelDomain.core.Models;
 using System.Threading.Tasks;
 using System.Web.Http;
 
@@ -78,6 +79,7 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         /// 
         /// </summary>
         /// <param name="id"></param>
+        /// <param name="entity">todo: describe entity parameter on DeleteAsync</param>
         /// <returns></returns>
         [HttpDelete]
         [Route("id")]
@@ -85,15 +87,24 @@ namespace SolutionPastel.Application.WebAPI.Controllers
         {
 
             var retClient = await _IClienteAppService.GetByIdAsync(id);
+           
             if (retClient == null)
             {
                 return NotFound();
             }
             else
             {
-                await _IClienteAppService.DeleteAsync(retClient);
+                await _IClienteAppService.DeleteAsync(retClient, id);
                 return Ok();
             }
         }
+
+        //[HttpGet]
+        //public async Task<IHttpActionResult> GetAll()
+        //{
+        //    var listaCliente = await _serviceBase.GetListAsync();
+        //    return Ok(listaCliente);
+        //}
+
     }
 }

@@ -285,6 +285,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Domain\SolutionPastelDomain.core\SolutionPastelDomain.core.csproj">
+      <Project>{3ECB0189-027F-4D23-BE39-D6D1AF5800D7}</Project>
+      <Name>SolutionPastelDomain.core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Infrastructure\SolutionPastel.Infra.IoC\SolutionPastel.Infra.IoC.csproj">
       <Project>{C00B29F3-E48A-4E60-940E-2715E350BBF0}</Project>
       <Name>SolutionPastel.Infra.IoC</Name>
