@@ -18,6 +18,6 @@ namespace SolutionPastel.Application.Service.Interface.AppService
         Task<TViewModel> AddAsync(TViewModel entity);
         Task UpdateAsync(TViewModel entity,int id);
         Task DeleteAsync(TViewModel entity,int id);
-        Task<TViewModel> GetAllAsync(TViewModel entity);
+        //Task<TViewModel> GetAllAsync(TViewModel entity);
      }
 }
