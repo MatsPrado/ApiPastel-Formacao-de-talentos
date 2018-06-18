@@ -285,6 +285,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Domain\SolutionPastel.Domain\SolutionPastel.Domain.csproj">
+      <Project>{47E60A9B-9D79-4AD3-9131-54EBC721A1E2}</Project>
+      <Name>SolutionPastel.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Domain\SolutionPastelDomain.core\SolutionPastelDomain.core.csproj">
       <Project>{3ECB0189-027F-4D23-BE39-D6D1AF5800D7}</Project>
       <Name>SolutionPastelDomain.core</Name>

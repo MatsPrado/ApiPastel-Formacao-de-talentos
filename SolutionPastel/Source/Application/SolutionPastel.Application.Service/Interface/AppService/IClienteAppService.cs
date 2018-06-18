@@ -1,4 +1,6 @@
-﻿using SolutionPastel.Application.Service.ViewModel;
+﻿using SolutionPastel.Application.Service.AppService;
+using SolutionPastel.Application.Service.ViewModel;
+using SolutionPastel.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SolutionPastel.Application.Service.Interface.AppService
 {
-    public interface IClienteAppService : IAplicationServiceBase<ClienteViewModel>
+    public interface IClienteAppService : AplicationServiceBase< Cliente,ClienteViewModel>
     {
     }
 }

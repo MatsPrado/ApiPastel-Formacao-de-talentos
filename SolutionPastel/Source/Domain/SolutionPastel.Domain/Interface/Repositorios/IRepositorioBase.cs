@@ -11,6 +11,7 @@ namespace SolutionPastel.Domain.Interface.Repositorios
         where TEntity : Entity
     {
         Task<TEntity> GetByIdAsync(int id);
+        Task<List<TEntity>> GetListAsync();
         Task AddAsync(TEntity entity);
         Task UpdateAsync(TEntity entity);
         Task DeleteAsync(TEntity entity);

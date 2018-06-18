@@ -22,8 +22,12 @@ namespace SolutionPastel.Domain.Service
             {
                 await _repositoryBase.AddAsync(entity);
             }
+        public async Task<List<TEntity>> GetListAsync()
+        {
+            return await _repositoryBase.GetListAsync();
+        }
 
-            public async Task DeleteAsync(TEntity entity)
+        public async Task DeleteAsync(TEntity entity)
             {
                 await _repositoryBase.DeleteAsync(entity);
             }

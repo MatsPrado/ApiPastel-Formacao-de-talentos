@@ -1,6 +1,8 @@
 ﻿using SolutionPastel.Application.Service.Interface.AppService;
 using SolutionPastel.Application.Service.ViewModel;
+using SolutionPastel.Domain.Models;
 using SolutionPastelDomain.core.Models;
+using System.Net;
 using System.Threading.Tasks;
 using System.Web.Http;
 
@@ -73,6 +75,23 @@ namespace SolutionPastel.Application.WebAPI.Controllers
                 return Ok(entity);
             }
            
+        }
+        /// <summary>
+        /// Método para buscar todos os clientes
+        /// </summary>
+        /// <returns></returns>
+        /// <remarks>Obtém todos os clientes</remarks>
+        /// <Response code="200">Ok</Response>
+        /// <Response code="400">BadRequest</Response>
+        /// <Response code="500">InternalServerError</Response>
+        [SwaggerResponse(HttpStatusCode.OK)]
+        [SwaggerResponse(HttpStatusCode.BadRequest, "BadRequest")]
+        [SwaggerResponse(HttpStatusCode.InternalServerError, "InternalServerError")]
+        [ResponseType(typeof(Cliente))]
+        [HttpGet]
+        public async Task<IHttpActionResult> GetAll()
+        {
+            return Ok(await _IClienteAppService.GetListAsync());
         }
 
         /// <summary>

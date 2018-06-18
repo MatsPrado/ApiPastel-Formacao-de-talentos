@@ -14,5 +14,6 @@ namespace SolutionPastel.Domain.Interface.Services
         Task AddAsync(TEntity entity);
         Task UpdateAsync(TEntity entity);
         Task DeleteAsync(TEntity entity);
+        Task<List<TEntity>> GetListAsync();
     }
 }

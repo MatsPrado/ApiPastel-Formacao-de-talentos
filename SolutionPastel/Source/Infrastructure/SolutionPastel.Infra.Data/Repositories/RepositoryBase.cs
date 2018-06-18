@@ -39,6 +39,14 @@ namespace SolutionPastel.Infra.Data.Repositories
                 return await connection.GetAsync<TEntity>(id);
             }
         }
+        public async Task<List<TEntity>> GetListAsync()
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+                return ((await connection.GetListAsync<TEntity>()).ToList());
+            }
+        }
 
         public async Task UpdateAsync(TEntity entity)
         {
@@ -48,5 +56,12 @@ namespace SolutionPastel.Infra.Data.Repositories
             }
 
         }
+        //public async Task GetAll(TEntity entity)
+        //{
+        //    using (var connection = new SqlConnection(_connectionString))
+        //    {
+        //        await connection.UpdateAsync(entity);
+        //    }
+        //}
     }
 }

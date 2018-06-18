@@ -4,6 +4,7 @@ using SolutionPastel.Domain.Interface.Services;
 using SolutionPastelDomain.core.Models;
 using System.Threading.Tasks;
 using System;
+using System.Collections.Generic;
 
 namespace SolutionPastel.Application.Service.AppService
 {
@@ -27,6 +28,11 @@ namespace SolutionPastel.Application.Service.AppService
             return ViewModel;
              
         }
+        public async Task<List<TEntity>> GetListAsync()
+        {
+            var entity = await _domainServiceBase.GetListAsync();
+            return Mapper.Map<List<TEntity>>(entity);
+        }
 
         //TODO
         public virtual async Task DeleteAsync(TViewModel entityViewModel, int id)
@@ -36,13 +42,11 @@ namespace SolutionPastel.Application.Service.AppService
             await _domainServiceBase.DeleteAsync(entity);
         }
 
-        //public Task<TViewModel> GetAllAsync(TViewModel entity)
+        //public virtual async Task<IEnumerable<TEntity>> GetAllAsync(TEntity entity)
         //{
-        //    var entity = await _domainServiceBase.GetAll();
+        //    var entity = await _domainServiceBase.GetAllAsync(entity);
         //    return Mapper.Map<TViewModel>(entity);
         //}
-
-
 
         /// <summary>
         /// 
